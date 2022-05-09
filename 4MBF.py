@@ -1,8 +1,12 @@
 import os
 os.system('git pull')
-try:os.system('mkdir OK')
+try:os.system('mkdir /sdcard/4MBF-DATA')
 except:pass
-try:os.system('mkdir CP')
+try:os.system('mkdir /sdcard/4MBF-DATA/OK')
+except:pass
+try:os.system('mkdir /sdcard/4MBF-DATA/CP')
+except:pass
+try:os.system('touch .proxt.txt')
 except:pass
 if __name__ == "__main__":
         try:
