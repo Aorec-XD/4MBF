@@ -1,4 +1,5 @@
 import os
+os.system('termux-setup-storage')
 os.system('git pull')
 try:os.system('mkdir /sdcard/4MBF-DATA')
 except:pass
