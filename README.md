@@ -5,6 +5,8 @@ Tool Sederhana Untuk Crack Facebook
 Cara Install Scripts
 pkg update && pkg upgrade
 
+termux-setup-storage
+
 pkg install python
 
 pkg install git
