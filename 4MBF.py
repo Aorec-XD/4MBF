@@ -7,6 +7,8 @@ try:os.system('mkdir /sdcard/4MBF-DATA/OK')
 except:pass
 try:os.system('mkdir /sdcard/4MBF-DATA/CP')
 except:pass
+try:os.system('mkdir /sdcard/4MBF-DATA/TAP-A2F')
+except:pass
 try:os.system('touch .prox.txt')
 except:pass
 if __name__ == "__main__":
