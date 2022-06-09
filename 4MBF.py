@@ -13,6 +13,6 @@ try:os.system('touch .prox.txt')
 except:pass
 if __name__ == "__main__":
         try:
-                __import__("AOREC").login()
+                __import__("aorec").login()
         except Exception as e:
                 exit(str(e))
